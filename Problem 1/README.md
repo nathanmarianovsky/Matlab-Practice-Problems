@@ -6,7 +6,7 @@ Write a function that takes the following input:
 - MIN (integer)
 - MAX (integer)
 
-and returns a random number between the two. Then write a script that takes input from the user and calls the function to get the output.
+and returns a random number between MIN and MAX. Then write a script that takes input from the user and calls the function to get the output.
 
 #Goals
 The point of this problem is to practice:
