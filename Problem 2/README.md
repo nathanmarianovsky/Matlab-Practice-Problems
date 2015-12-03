@@ -13,7 +13,7 @@ and use the function from Problem 1 to have this function generate an array of r
 - Second one to hold the function that generates the array
 - Third one that asks for the input and returns an output for a user
 
-Make sure that you document the code well enough to make it easy to understand to any person.
+Make sure that you document the code well enough to make it easy to understand to any person. Note that if function files are in the same directory as the script, then the functions can be called without having to be imported.
 
 #Goals
 The point of this problem is to practice:

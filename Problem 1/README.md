@@ -11,7 +11,7 @@ and returns a random number between MIN and MAX. Then write a script that takes 
 - First one to hold just the function
 - Second one that asks for the input and returns an output for a user
 
-Make sure that you document the code well enough to make it easy to understand to any person.
+Make sure that you document the code well enough to make it easy to understand to any person. Note that if function files are in the same directory as the script, then the functions can be called without having to be imported.
 
 #Goals
 The point of this problem is to practice:

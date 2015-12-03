@@ -14,7 +14,7 @@ and use the functions from Problems 1 & 2 to have this function a create a matri
 - Third one to hold the function that generates the matrix
 - Fourth one that asks for the input and returns an output for a user
 
-Make sure that you document the code well enough to make it easy to understand to any person.
+Make sure that you document the code well enough to make it easy to understand to any person. Note that if function files are in the same directory as the script, then the functions can be called without having to be imported.
 
 #Goals
 The point of this problem is to practice:
