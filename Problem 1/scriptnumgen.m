@@ -9,4 +9,3 @@ Max = input('Enter a large integer value: ');
 
 rndnum = numgen(Min,Max);
 fprintf('The random number generated between Min and Max is %.d\n,', rndnum);
-
