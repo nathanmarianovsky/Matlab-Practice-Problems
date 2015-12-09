@@ -1,6 +1,6 @@
 %This script calls the vecgen function
 %to generate a vector of random integers between the Min and Max values
-%provided by the user
+%provided by the user.
 
 clc;
 
@@ -10,4 +10,3 @@ Min = input('Enter a small integer value: ');
 Max = input('Enter a large integer value: ');
 
 rndvec = vecgen(Size, Min, Max);
-

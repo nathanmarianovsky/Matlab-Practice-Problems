@@ -3,9 +3,9 @@
 
 clc;
 
-Size = input('What size matrix would you like? ');
+Size = input('What size vector would you like? ');
 Size = round(Size);
 Min = input('Enter a small integer value: ');
 Max = input('Enter a large integer value: ');
 
-rndmatrix = matrixgen(Size, Min, Max);
+rndmatrix = matrixgen_alternate(Size, Min, Max);
