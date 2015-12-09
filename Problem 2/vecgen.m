@@ -8,7 +8,4 @@ for i = 1:Size
     rndvecgen(i) = numgen(Min, Max);
 end
 
-fprintf('The vector generated is:\n ');
-disp(rndvecgen);
-
 end
