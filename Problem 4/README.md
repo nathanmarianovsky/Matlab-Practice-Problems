@@ -3,9 +3,9 @@
 #Statement
 Write a script that first asks a user for the size of a vector, v, and let the user input the components of the vector. With the vector given, ask the user using the menu function what they would like to do next:
 
-- Perform A*v
-- Perform (v^T)*A
-- Perform (v^T)*A*v
+- Perform A * v
+- Perform (v^T) * A
+- Perform (v^T) * A * v
 
 where A is some matrix of random integers:
 
