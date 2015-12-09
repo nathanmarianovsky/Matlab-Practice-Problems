@@ -9,7 +9,9 @@ addpath('../Problem 2/');
 %to copy files over. God knows no one wants to keep copying files over and
 %over...and over. Now unlike most languages, addpath is not the same as
 %importing a file. What it actually does is add the path you are specifying
-%to the current build path. 
+%to the build path(s) which in essense tells Matlab to look for files that
+%we may be using over in some directory. For clarity in case you do not
+%know, the ".." in the addpath tell Matlab to first go up one directory.
 
 Size = input('What size matrix would you like? ');
 Size = round(Size);
