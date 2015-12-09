@@ -5,4 +5,4 @@ This repository holds problems specifically designed to help practice the Matlab
 #Contributors:
 
 - nathanmarianovsky - Provider of problems and comments on solutions
-- SiddarthMarwaha - Provider of solutions of to problems
+- SiddarthMarwaha - Provider of solutions to problems
