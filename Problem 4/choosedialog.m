@@ -6,7 +6,7 @@ function choice = choosedialog
            'Position',[20 80 210 40],...
            'String','Select an Operation');
        
-    popup = uicontrol('Parent',d,...
+    uicontrol('Parent',d,...
            'Style','popup',...
            'Position',[75 70 100 25],...
            'String',{'A*v';'(v^T)*A';'(v^T)*A*v'},...
@@ -18,20 +18,13 @@ function choice = choosedialog
            'Callback','delete(gcf)');
        
     choice = 'A*v';
-    
-    %The main issue here was that we had to change the default choice to be
-    %the first option on our list.
        
     % Wait for d to close before running to completion
     uiwait(d);
    
     function popup_callback(popup,~)
-      idx = popup.Value;
-      popup_items = popup.String;
-      choice = char(popup_items(idx,:));
+        idx = get(popup,'Value');
+        popup_items = get(popup,'String');
+        choice = char(popup_items(idx,:));
     end
-
-    %Can you explain how this function works at each step? What the purpose
-    %of the function popup_callback is?
-
 end

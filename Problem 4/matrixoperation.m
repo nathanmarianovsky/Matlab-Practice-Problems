@@ -1,15 +1,9 @@
 function matrix = matrixoperation(choice, Size, Min, Max, Vec)
 
-A = matrixgen(Size, Min, Max);
+%The function matrixopertaion is designed to perform three matrix/vector
+%operation: A*v, (v^T)*A, and (v^T)*A*v.  
 
-% if(choice == 'A*v')
-%     matrix = A .* Vec';
-% 
-% elseif(choice == '(v^T)*A')
-%     matrix = Vec .* A;
-% 
-% else
-%     matrix = Vec .*A .*Vec'; 
+A = matrixgen3(Size, Min, Max);     %A is a matrix of random numbers between any min and max integers.
 
 if(strcmp(choice, 'A*v'))
     matrix = A * Vec;
@@ -17,10 +11,5 @@ elseif(strcmp(choice, '(v^T)*A'))
     matrix = Vec.' * A;
 elseif(strcmp(choice, '(v^T)*A*v'))
     matrix = Vec.' * A * Vec; 
-    
-
-%So here I just changed the way the two strings were being compared. Matlab
-%was saying that it is better to use strcmp() rather than == to check
-%string equality. Obviously this is a very small issue.
 
 end
